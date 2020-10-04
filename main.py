@@ -19,8 +19,8 @@ print(
 print(
     color.BLUE + "This program performs addition, substraction, division,and multiplication for any user-given two integers")
 
-input1 = int(input("\nplease input the first number = ".title()))
-input2 = int(input("please input the second number = ".title()))
+input1 = float(input("\nplease input the first number = ".title()))
+input2 = float(input("please input the second number = ".title()))
 
 
 def addition(number1, number2):
